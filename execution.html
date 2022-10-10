@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execution Practice
+    </title>
+</head>
+<body>
+    
+</body>
+<script>
+    //normal excution contest
+    var a = 50;
+    const b = 60;
+    let c = 70;
+    var d =a+b+c;
+
+    function myfunction(){
+      var a1 = 80;
+      let b1 = 90;
+      const c1 = 30;
+
+      console.log(a1+b1+c);
+    }
+    myfunction();
+    //----------------------------------------------
+//callstack
+    function nestack(){
+        console.log("neststack");
+        function nestackA(){
+            console.log('nestackA');
+        }
+    nestackA();
+    }
+  nestack();
+//----------------------------------------------
+//arrow function with Var and const
+
+//const arrow
+myfun();
+const myfun = () =>{
+    console.log("myfun with const");
+}
+//----------------------------------------------
+ //var arrow
+myfunI();
+ var myfunI = () =>{
+    console.log("myfunI with var");
+ }
+//----------------------------------------------
+
+</script>
+</html>
